@@ -1,0 +1,50 @@
+
+@import "_overrides";
+
+.main { width:100%; float:left; background-color:#343434;}
+.main-center { width:1178px; margin:0 auto;}
+
+.right_top { width:665px; float:right; padding:10px;}
+.right_top p { width:220px; float:left;  color:#FFFFFF; margin:0px; padding:0px; font-family:open sans; font-size:13px; text-align:center;}
+
+.koenig-Logo-area { width:100%; float:left; background-color:#FFFFFF;}
+
+.logo { width:157px; float:left; margin:10px 0 10px 0px;}
+
+.navigation { width:422px; float:right; margin:15px 0 10px 0px;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+	font-family:open sans;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #2e2e2e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #008dd2;
+	color:#FFFFFF;
+}
+
+
+
+.right { width:350px; margin:0 auto; padding:15px 0 35px 0px;}
+
+.right span { color:#FFFFFF; float:left; margin-right:15px;}
+.fb { width:20px; height:20px; margin-right:10px; float:left;}
